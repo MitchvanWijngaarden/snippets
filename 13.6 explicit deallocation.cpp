@@ -1,0 +1,3 @@
+Circle* c= new Circle;
+...
+delete c;

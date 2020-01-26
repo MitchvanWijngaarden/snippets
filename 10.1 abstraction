@@ -1,0 +1,23 @@
+class Cat {
+	constructor() {
+		this.legs = 4;
+		this.fur = true;
+	}
+	
+	func walk() {
+		. . .
+	}
+}
+
+class MaineCoon {
+	constructor() {
+		this.speed = 4;
+		this.color = red;
+	}
+	
+	func walk() {
+		move(this.speed);
+	}
+}
+alert(new Cat()) // returns legs = 4, fur = true
+alert(new MaineCoone()) // returns legs = 4, fur = true, speed = 4, color = red

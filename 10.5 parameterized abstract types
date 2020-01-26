@@ -1,0 +1,11 @@
+template <class Type>
+	class Stack {
+		private: 
+			Type *stackPtr; const int maxLen; int topPtr;
+	
+		public:
+			Stack() {
+				stackPtr = new Type[100]; maxLen = 99; topPtr = -1; 
+			}
+	. . .
+	}
